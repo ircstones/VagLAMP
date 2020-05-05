@@ -1,0 +1,10 @@
+---
+#Thecoreversionyouwanttouse(e.g.8.8.x,8.9.x).
+ drupal_core_version:"8.8.x"
+
+#ThepathwhereDrupalwillbedownloadedandinstalled.
+ drupal_core_path:"/var/www/drupal-{{drupal_core_version}}-dev"
+
+#Theresultingdomainwillbe[domain].test(with.testappended).
+ domain:"drupal"
+
